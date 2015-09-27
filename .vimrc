@@ -36,6 +36,11 @@ Plugin 'maksimr/vim-jsbeautify'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'godlygeek/tabular'
+Plugin 'mhinz/vim-signify'
+Plugin 'kshenoy/vim-signature' 
+Plugin 'joonty/vdebug' 
+Plugin 'nginx.vim'
+Plugin 'evanmiller/nginx-vim-syntax'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
