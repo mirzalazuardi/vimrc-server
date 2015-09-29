@@ -41,6 +41,7 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'joonty/vdebug' 
 Plugin 'nginx.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'aklt/plantuml-syntax'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
