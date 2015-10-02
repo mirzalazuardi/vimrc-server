@@ -1,5 +1,6 @@
 set number
 set fdm=indent
+set hlsearch
 set nocompatible              " be iMproved, required
 filetype off                  " required
 colorscheme gotham256
