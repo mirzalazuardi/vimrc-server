@@ -1,5 +1,6 @@
 set number
 set fdm=indent
+set hlsearch
 set nocompatible              " be iMproved, required
 filetype off                  " required
 colorscheme gotham256
@@ -42,6 +43,8 @@ Plugin 'joonty/vdebug'
 Plugin 'nginx.vim'
 Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'aklt/plantuml-syntax'
+Plugin 'elzr/vim-json'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -93,3 +96,15 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+au! BufRead,BufNewFile *.json set filetype=json
+
+augroup json_autocmd
+  autocmd!
+  autocmd FileType json set autoindent
+  autocmd FileType json set formatoptions=tcq2l
+  autocmd FileType json set textwidth=78 shiftwidth=2
+  autocmd FileType json set softtabstop=2 tabstop=8
+  autocmd FileType json set expandtab
+  autocmd FileType json set foldmethod=syntax
+augroup END
