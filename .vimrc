@@ -45,6 +45,8 @@ Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'aklt/plantuml-syntax'
 Plugin 'elzr/vim-json'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'sjl/gundo.vim'
+Plugin 'MattesGroeger/vim-bookmarks'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
