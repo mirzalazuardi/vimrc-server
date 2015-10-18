@@ -111,3 +111,5 @@ augroup json_autocmd
   autocmd FileType json set expandtab
   autocmd FileType json set foldmethod=syntax
 augroup END
+
+set guifont=Source\ Code\ Pro\ for\ Powerline
