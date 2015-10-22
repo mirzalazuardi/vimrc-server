@@ -48,6 +48,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'sjl/gundo.vim'
 Plugin 'MattesGroeger/vim-bookmarks'
 Plugin 'marvim'
+Plugin 'Valloric/MatchTagAlways'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
