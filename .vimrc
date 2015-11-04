@@ -49,6 +49,8 @@ Plugin 'sjl/gundo.vim'
 Plugin 'MattesGroeger/vim-bookmarks'
 Plugin 'marvim'
 Plugin 'Valloric/MatchTagAlways'
+Plugin 'JarrodCTaylor/vim-js2coffee'
+Plugin 'kchmck/vim-coffee-script' 
 
 call vundle#end()            " required
 filetype plugin indent on    " required
