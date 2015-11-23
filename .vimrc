@@ -51,6 +51,7 @@ Plugin 'marvim'
 Plugin 'Valloric/MatchTagAlways'
 Plugin 'JarrodCTaylor/vim-js2coffee'
 Plugin 'kchmck/vim-coffee-script' 
+Plugin 'Chiel92/vim-autoformat'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
