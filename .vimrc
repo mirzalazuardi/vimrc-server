@@ -1,9 +1,10 @@
+syntax on
 set number
 set fdm=indent
 set hlsearch
 set nocompatible              " be iMproved, required
 filetype off                  " required
-colorscheme gotham256
+"colorscheme gotham256
 set ts=2 sw=2 et
 let g:indent_guides_start_level = 2
 set laststatus=2
