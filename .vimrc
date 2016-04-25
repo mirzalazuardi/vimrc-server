@@ -54,6 +54,9 @@ Plugin 'JarrodCTaylor/vim-js2coffee'
 Plugin 'kchmck/vim-coffee-script' 
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'vim-multiple-cursors'
+Plugin 'RelativeNumberCurrentWindow'
+Plugin 'myusuf3/numbers.vim' 
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
